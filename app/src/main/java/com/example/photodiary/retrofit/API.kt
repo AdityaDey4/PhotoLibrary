@@ -1,7 +1,6 @@
-package com.example.photodiary
+package com.example.photodiary.retrofit
 
-import com.example.photodiary.ModelClass.UnsplashResponce
-import retrofit2.Response
+import com.example.photodiary.Constant
 import retrofit2.http.GET
 import retrofit2.http.Headers
 import retrofit2.http.Query
@@ -14,5 +13,5 @@ interface API {
         @Query("query") query: String,
         @Query("page") page: Int,
         @Query("per_page") per_page: Int
-    ): Response<UnsplashResponce>
+    ) : UnsplashResponce
 }
