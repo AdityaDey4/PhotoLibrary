@@ -1,4 +1,4 @@
-package com.example.photodiary.ModelClass
+package com.example.photodiary.model
 
 data class UnsplashUser(
     val name: String?,
